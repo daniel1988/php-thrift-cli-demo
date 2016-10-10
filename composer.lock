@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "6239905b5ef85f5ac136c9fd3b6d8afe",
+    "content-hash": "b8a8d71a249d463fc17b46a75e6611e7",
+    "packages": [
+        {
+            "name": "onelib-apache-thrift/thrift",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/daniel1988/onelib-apache-thrift.git",
+                "reference": "c8ea18c9f986d9882bcd38e3553846bb30aaf4b4"
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Thrift\\": "src/"
+                }
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Apache Thrift",
+            "homepage": "https://github.com/daniel1988/onelib-apache-thrift",
+            "keywords": [
+                "apache",
+                "thrift"
+            ],
+            "time": "2016-10-10 02:55:17"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "onelib-apache-thrift/thrift": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}

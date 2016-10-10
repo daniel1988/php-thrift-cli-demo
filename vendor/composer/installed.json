@@ -1,0 +1,32 @@
+[
+    {
+        "name": "onelib-apache-thrift/thrift",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/daniel1988/onelib-apache-thrift.git",
+            "reference": "c8ea18c9f986d9882bcd38e3553846bb30aaf4b4"
+        },
+        "require": {
+            "php": ">=5.0.0"
+        },
+        "time": "2016-10-10 02:55:17",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Thrift\\": "src/"
+            }
+        },
+        "license": [
+            "Apache-2.0"
+        ],
+        "description": "Apache Thrift",
+        "homepage": "https://github.com/daniel1988/onelib-apache-thrift",
+        "keywords": [
+            "apache",
+            "thrift"
+        ]
+    }
+]

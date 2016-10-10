@@ -1,0 +1,27 @@
+{
+    "name": "onelib/php-thrift-cli-demo",
+    "type": "library",
+    "description": "OneLib php-thrift-cli-demo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "daniel.luo",
+            "email": "453465565@qq.com"
+        }
+    ],
+    "repositories": [
+        {
+            "url": "https://github.com/daniel1988/onelib-apache-thrift.git",
+            "type": "git"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "onelib-apache-thrift/thrift": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "OneLib": "src/"
+        }
+    }
+}
